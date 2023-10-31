@@ -14,7 +14,6 @@ function App() {
           <Route path='/product/:productId' exact Component={ProductDetail} />
           <Route>404 Not found</Route>
         </Routes>
-
       </Router>
     </div>
   );
